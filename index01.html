@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+
+    function checkFirstLetterUppercase(str) {
+        let letter = /^[A-Z]/;
+        if (letter.test(str)) {
+            console.log("uppercase");
+        } else {
+            console.log("not uppercase");
+        }
+    }
+
+    checkFirstLetterUppercase("nguyen van Nam");
+    checkFirstLetterUppercase("NGUYEN VAN NAM");
+    checkFirstLetterUppercase("Nguyen van Nam")
+
+</script>
+</body>
+</html>
